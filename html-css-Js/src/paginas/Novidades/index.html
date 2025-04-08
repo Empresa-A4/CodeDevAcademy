@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidades-CodeDev Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!--============================= Header e Navegação ==============================-->
+    <header class="header" id="header">
+        <div class="container nav-container">
+
+            <!-- Logo animada -->
+            <a href="#" class="logo">
+                <div class="code-icon">
+                    <div class="code-element bracket-left"></div>
+                    <div class="code-element bracket-right"></div>
+                    <div class="code-element code-line line1"></div>
+                    <div class="code-element code-line line2"></div>
+                    <div class="code-element code-line line3"></div>
+                    <div class="dot-pulse"></div>
+                </div>
+                <div class="logo-text">
+                    <h1 class="logo-name">
+                        <span class="name-part code">Code</span><span class="name-part dev">Dev</span>
+                    </h1>
+                    <div class="academy">Academy</div>
+                </div>
+            </a>
+
+            <!-- Botão hamburguer e checkbox para controle do menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="hamburger-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/CodeNexus/html-css-Js/index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Novidades</a></li>
+                    <li class="nav-item"><a href="../Assinaturas/index.html" class="nav-link">Planos de assinatura</a></li>
+                    <li class="nav-item"><a href="../Contato/index.html" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="../Sobre/index.html" class="nav-link">Sobre Nós</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="#" class="header-cta-button">Matricule-se</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--================================== Sidebar =======================================-->
+    <main>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="logo">
+                    <div class="code-icon">
+                        <div class="code-element bracket-left"></div>
+                        <div class="code-element bracket-right"></div>
+                        <div class="code-element code-line line1"></div>
+                        <div class="code-element code-line line2"></div>
+                        <div class="code-element code-line line3"></div>
+                        <div class="dot-pulse"></div>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-name">
+                            <span class="name-part code">Code</span><span class="name-part dev">Dev</span>
+                        </h1>
+                        <div class="academy">Academy</div>
+                    </div>
+                </a>
+                <button class="sidebar-close" id="sidebarClose">×</button>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-heading">FRONT-END</h3>
+                    <ul class="sidebar-links">
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                                        width="20px"></span> html</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                                        width="20px"></span> css</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                        width="20px"></span> JavaScript</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                                        width="20px"></span> Tailwind</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                                        width="20px"></span> React</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                                        width="20px"></span> Typescript</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                                        width="20px"></span> NEXT.JS</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                                        width="20px"></span> Angular</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                                        width="20px"></span> Bootstrap</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3 class="sidebar-heading">BACK-END</h3>
+                    <ul class="sidebar-links">
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                                        width="20px"></span> Python</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                        width="20px"></span> Java</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                                        width="20px"></span> PHP</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain.svg"
+                                        width="20px"></span> Ruby</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                                        width="20px"></span> C#</a></li>
+                        <li><a href="#"><span class="sidebar-icon"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg"
+                                        width="20px"></span> Swift</a></li>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <p>Versão: 2.5.0</p>
+                <a href="#" class="sidebar-help">Precisa de ajuda?</a>
+            </div>
+        </div>
+
+        <!-- Overlay para quando a sidebar estiver aberta -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+        <!-- Botão para abrir a sidebar -->
+        <button class="sidebar-toggle" id="sidebarToggle">
+            <span class="toggle-icon">☰</span>
+        </button>
+    
+</body>
+</html>
